@@ -8,7 +8,7 @@ def animate(size=128, step=10, path='~/Videos/logo'):
     path = os.path.expanduser(path)
     shutil.rmtree(path)
     os.mkdir(path)
-    obj = FreeCAD.getDocument('LogoAsm').getObjectsByLabel('PlaneCoincident')[0]
+    obj = FreeCAD.getDocument('assembly').getObjectsByLabel('PlaneCoincident')[0]
     FreeCAD.setActiveDocument(obj.Document.Name)
     view = FreeCADGui.getDocument(obj.Document.Name).ActiveView
     for i, a in enumerate(range(0, 360+step, step)):
