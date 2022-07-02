@@ -1,0 +1,237 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- FreeCAD DocumentObject -->
+<Document SchemaVersion="4" FileVersion="2">
+<Object name="SavedView">
+  <Properties Count="59" TransientCount="0">
+    <Property name="BackLight" type="App::PropertyBool" group="ClipSettings" attr="0" ro="0" hide="0" doc="" status="2097160">
+      <Bool value="false"/>
+    </Property>
+    <Property name="BackLightColor" type="App::PropertyColor" group="ClipSettings" attr="0" ro="0" hide="0" doc="" status="2097160">
+      <PropertyColor value="4294967295"/>
+    </Property>
+    <Property name="BackLightIntensity" type="App::PropertyFloat" group="ClipSettings" attr="0" ro="0" hide="0" doc="" status="2097160">
+      <Float value="1"/>
+    </Property>
+    <Property name="CameraSettings" type="App::PropertyString" group="CameraSettings" attr="0" ro="0" hide="0" doc="" status="2097160">
+      <String value="SetCamera OrthographicCamera {&#10;  viewportMapping ADJUST_CAMERA&#10;  position 51.325691 70.122375 57.874542&#10;  orientation -0.69429111 -0.71779978 -0.052195121  0.36323711&#10;  nearDistance 10.005587&#10;  farDistance 119.33738&#10;  aspectRatio 1&#10;  focalDistance 128.89847&#10;  height 257.79758&#10;&#10;}&#10;## overrideMode: As Is"/>
+    </Property>
+    <Property name="ClipConcave" type="App::PropertyBool" group="ClipSettings" attr="0" ro="0" hide="0" doc="" status="2097160">
+      <Bool value="false"/>
+    </Property>
+    <Property name="ClipEnable" type="App::PropertyBool" group="ClipSettings" attr="0" ro="0" hide="0" doc="" status="2097160">
+      <Bool value="false"/>
+    </Property>
+    <Property name="ClipEnableX" type="App::PropertyBool" group="ClipSettings" attr="0" ro="0" hide="0" doc="" status="2097160">
+      <Bool value="false"/>
+    </Property>
+    <Property name="ClipEnableY" type="App::PropertyBool" group="ClipSettings" attr="0" ro="0" hide="0" doc="" status="2097160">
+      <Bool value="false"/>
+    </Property>
+    <Property name="ClipEnableZ" type="App::PropertyBool" group="ClipSettings" attr="0" ro="0" hide="0" doc="" status="2097160">
+      <Bool value="false"/>
+    </Property>
+    <Property name="ClipFill" type="App::PropertyBool" group="ClipSettings" attr="0" ro="0" hide="0" doc="" status="2097160">
+      <Bool value="true"/>
+    </Property>
+    <Property name="ClipGroup" type="App::PropertyBool" group="ClipSettings" attr="0" ro="0" hide="0" doc="" status="2097160">
+      <Bool value="false"/>
+    </Property>
+    <Property name="ClipHatch" type="App::PropertyBool" group="ClipSettings" attr="0" ro="0" hide="0" doc="" status="2097160">
+      <Bool value="true"/>
+    </Property>
+    <Property name="ClipHatchScale" type="App::PropertyFloat" group="ClipSettings" attr="0" ro="0" hide="0" doc="" status="2097160">
+      <Float value="1"/>
+    </Property>
+    <Property name="ClipHatchTexture" type="App::PropertyString" group="ClipSettings" attr="0" ro="0" hide="0" doc="" status="2097160">
+      <String value=":icons/section-hatch.png"/>
+    </Property>
+    <Property name="ClipPlaneSize" type="App::PropertyFloat" group="ClipSettings" attr="0" ro="0" hide="0" doc="" status="2097160">
+      <Float value="40"/>
+    </Property>
+    <Property name="ClipPosition" type="App::PropertyVector" group="ClipSettings" attr="0" ro="0" hide="0" doc="" status="2097160">
+      <PropertyVector valueX="0" valueY="0" valueZ="0"/>
+    </Property>
+    <Property name="ClipPositionX" type="App::PropertyVector" group="ClipSettings" attr="0" ro="0" hide="0" doc="" status="2097160">
+      <PropertyVector valueX="0" valueY="0" valueZ="0"/>
+    </Property>
+    <Property name="ClipPositionY" type="App::PropertyVector" group="ClipSettings" attr="0" ro="0" hide="0" doc="" status="2097160">
+      <PropertyVector valueX="0" valueY="0" valueZ="0"/>
+    </Property>
+    <Property name="ClipPositionZ" type="App::PropertyVector" group="ClipSettings" attr="0" ro="0" hide="0" doc="" status="2097160">
+      <PropertyVector valueX="0" valueY="0" valueZ="0"/>
+    </Property>
+    <Property name="ClipRotation" type="App::PropertyRotation" group="ClipSettings" attr="0" ro="0" hide="0" doc="" status="2097160">
+      <PropertyRotation A="0" Ox="0" Oy="0" Oz="1"/>
+    </Property>
+    <Property name="ClipShowPlane" type="App::PropertyBool" group="ClipSettings" attr="0" ro="0" hide="0" doc="" status="2097160">
+      <Bool value="false"/>
+    </Property>
+    <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+      <ExpressionEngine count="0"></ExpressionEngine>
+    </Property>
+    <Property name="Label" type="App::PropertyString" status="134217728">
+      <String value="3DView"/>
+    </Property>
+    <Property name="Label2" type="App::PropertyString" status="128">
+      <String value=""/>
+    </Property>
+    <Property name="SaveCamera" type="App::PropertyBool">
+      <Bool value="true"/>
+    </Property>
+    <Property name="SaveClippings" type="App::PropertyBool">
+      <Bool value="true"/>
+    </Property>
+    <Property name="SaveShadowSettings" type="App::PropertyBool">
+      <Bool value="true"/>
+    </Property>
+    <Property name="SaveShowOnTop" type="App::PropertyBool">
+      <Bool value="true"/>
+    </Property>
+    <Property name="SaveVisibilities" type="App::PropertyBool">
+      <Bool value="true"/>
+    </Property>
+    <Property name="Shadow_BoundBoxScale" type="App::PropertyFloatConstraint" group="Shadow" attr="0" ro="0" hide="0" doc="" status="2097160">
+      <Float value="4.1"/>
+    </Property>
+    <Property name="Shadow_DisplayMode" type="App::PropertyEnumeration" group="Shadow" attr="0" ro="0" hide="0" doc="" status="2097160">
+      <Integer value="-1"/>
+    </Property>
+    <Property name="Shadow_Epsilon" type="App::PropertyPrecision" group="Shadow" attr="0" ro="0" hide="0" doc="" status="2097160">
+      <Float value="0"/>
+    </Property>
+    <Property name="Shadow_GroundAutoPosition" type="App::PropertyBool" group="Shadow" attr="0" ro="0" hide="0" doc="" status="2097160">
+      <Bool value="true"/>
+    </Property>
+    <Property name="Shadow_GroundBackFaceCull" type="App::PropertyBool" group="Shadow" attr="0" ro="0" hide="0" doc="" status="2097160">
+      <Bool value="true"/>
+    </Property>
+    <Property name="Shadow_GroundBumpMap" type="App::PropertyFileIncluded" group="Shadow" attr="0" ro="0" hide="0" doc="" status="2097160">
+      <FileIncluded file=""/>
+    </Property>
+    <Property name="Shadow_GroundColor" type="App::PropertyColor" group="Shadow" attr="0" ro="0" hide="0" doc="" status="2097160">
+      <PropertyColor value="1936945920"/>
+    </Property>
+    <Property name="Shadow_GroundPlacement" type="App::PropertyPlacement" group="Shadow" attr="0" ro="0" hide="0" doc="" status="2097160">
+      <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0.7071067811865476" Q1="0" Q2="0" Q3="-0.7071067811865475" A="-1.570796326794897" Ox="1" Oy="0" Oz="0"/>
+    </Property>
+    <Property name="Shadow_GroundShading" type="App::PropertyBool" group="Shadow" attr="0" ro="0" hide="0" doc="" status="2097160">
+      <Bool value="false"/>
+    </Property>
+    <Property name="Shadow_GroundSizeAuto" type="App::PropertyBool" group="Shadow" attr="0" ro="0" hide="0" doc="" status="2097160">
+      <Bool value="true"/>
+    </Property>
+    <Property name="Shadow_GroundSizeScale" type="App::PropertyFloat" group="Shadow" attr="0" ro="0" hide="0" doc="" status="2097160">
+      <Float value="2"/>
+    </Property>
+    <Property name="Shadow_GroundTexture" type="App::PropertyFileIncluded" group="Shadow" attr="0" ro="0" hide="0" doc="" status="2097160">
+      <FileIncluded file=""/>
+    </Property>
+    <Property name="Shadow_GroundTextureSize" type="App::PropertyLength" group="Shadow" attr="0" ro="0" hide="0" doc="" status="2097160">
+      <Float value="99.98999999999999"/>
+    </Property>
+    <Property name="Shadow_GroundTransparency" type="App::PropertyFloatConstraint" group="Shadow" attr="0" ro="0" hide="0" doc="" status="2097160">
+      <Float value="0"/>
+    </Property>
+    <Property name="Shadow_LightColor" type="App::PropertyColor" group="Shadow" attr="0" ro="0" hide="0" doc="" status="2097160">
+      <PropertyColor value="4043177983"/>
+    </Property>
+    <Property name="Shadow_LightDirection" type="App::PropertyVector" group="Shadow" attr="0" ro="0" hide="0" doc="" status="2097160">
+      <PropertyVector valueX="-0.3108412325382233" valueY="-0.4850110113620758" valueZ="-0.8173995614051819"/>
+    </Property>
+    <Property name="Shadow_LightIntensity" type="App::PropertyFloatConstraint" group="Shadow" attr="0" ro="0" hide="0" doc="" status="2097160">
+      <Float value="0.8"/>
+    </Property>
+    <Property name="Shadow_MaxDistance" type="App::PropertyFloatConstraint" group="Shadow" attr="0" ro="0" hide="0" doc="" status="2097160">
+      <Float value="0"/>
+    </Property>
+    <Property name="Shadow_Precision" type="App::PropertyFloatConstraint" group="Shadow" attr="0" ro="0" hide="0" doc="" status="2097160">
+      <Float value="0.5"/>
+    </Property>
+    <Property name="Shadow_ShowGround" type="App::PropertyBool" group="Shadow" attr="0" ro="0" hide="0" doc="" status="2097160">
+      <Bool value="true"/>
+    </Property>
+    <Property name="Shadow_SmoothBorder" type="App::PropertyIntegerConstraint" group="Shadow" attr="0" ro="0" hide="0" doc="" status="2097160">
+      <Integer value="3"/>
+    </Property>
+    <Property name="Shadow_SpotLight" type="App::PropertyBool" group="Shadow" attr="0" ro="0" hide="0" doc="" status="2097160">
+      <Bool value="false"/>
+    </Property>
+    <Property name="Shadow_SpreadSampleSize" type="App::PropertyIntegerConstraint" group="Shadow" attr="0" ro="0" hide="0" doc="" status="2097160">
+      <Integer value="3"/>
+    </Property>
+    <Property name="Shadow_SpreadSize" type="App::PropertyIntegerConstraint" group="Shadow" attr="0" ro="0" hide="0" doc="" status="2097160">
+      <Integer value="3000"/>
+    </Property>
+    <Property name="Shadow_Threshold" type="App::PropertyFloatConstraint" group="Shadow" attr="0" ro="0" hide="0" doc="" status="2097160">
+      <Float value="0"/>
+    </Property>
+    <Property name="Shadow_TransparentShadow" type="App::PropertyBool" group="Shadow" attr="0" ro="0" hide="0" doc="" status="2097160">
+      <Bool value="true"/>
+    </Property>
+    <Property name="ShowOnTops" type="App::PropertyStringList" group="VisibilitySettings" attr="0" ro="0" hide="0" doc="" status="2097160">
+      <StringList count="0" >
+      </StringList>
+    </Property>
+    <Property name="TreeRank" type="App::PropertyInteger" status="2184">
+      <Integer value="118"/>
+    </Property>
+    <Property name="Visibilities" type="App::PropertyStringList" group="VisibilitySettings" attr="0" ro="0" hide="0" doc="" status="2097160">
+      <StringList count="50" >
+<String value="*InvoluteGear"/>
+<String value="*Sketch"/>
+<String value="Spreadsheet"/>
+<String value="Body"/>
+<String value="*Origin"/>
+<String value="X_Axis"/>
+<String value="Y_Axis"/>
+<String value="Z_Axis"/>
+<String value="XY_Plane"/>
+<String value="XZ_Plane"/>
+<String value="YZ_Plane"/>
+<String value="Sketches"/>
+<String value="Datums"/>
+<String value="Misc"/>
+<String value="*Export"/>
+<String value="*Sketch005"/>
+<String value="*Pad"/>
+<String value="*Sketch006"/>
+<String value="*Pocket"/>
+<String value="*Sketch007"/>
+<String value="*Pad002"/>
+<String value="*Sketch008"/>
+<String value="*Pad003"/>
+<String value="*Sketch009"/>
+<String value="Pocket001"/>
+<String value="Pad004"/>
+<String value="*Pad005"/>
+<String value="*Pocket002"/>
+<String value="*Pad006"/>
+<String value="*Export001"/>
+<String value="Pocket003"/>
+<String value="*Sketch010"/>
+<String value="*Sketch011"/>
+<String value="*Pad007"/>
+<String value="*Pad008"/>
+<String value="*Export002"/>
+<String value="*Export003"/>
+<String value="*Pad009"/>
+<String value="Pad010"/>
+<String value="*Export004"/>
+<String value="*Pocket004"/>
+<String value="*Export005"/>
+<String value="*Pocket005"/>
+<String value="SavedView"/>
+<String value="SavedView001"/>
+<String value="SavedView002"/>
+<String value="*Fillet"/>
+<String value="*Fillet001"/>
+<String value="Chamfer"/>
+<String value="Chamfer001"/>
+      </StringList>
+    </Property>
+    <Property name="Visibility" type="App::PropertyBool" status="648">
+      <Bool value="true"/>
+    </Property>
+  </Properties>
+</Object>
+</Document>

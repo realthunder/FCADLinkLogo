@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- FreeCAD DocumentObject -->
+<Document SchemaVersion="4" FileVersion="2">
+<Object name="Relation" Extensions="True">
+  <Extensions Count="1">
+    <Extension type="App::LinkBaseExtensionPython" name="LinkBaseExtensionPython">
+    </Extension>
+  </Extensions>
+  <Properties Count="12" TransientCount="0">
+    <Property name="Count" type="App::PropertyInteger" group=" Link" attr="0" ro="0" hide="0" doc="" status="2097160">
+      <Integer value="0"/>
+    </Property>
+    <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+      <ExpressionEngine count="0"></ExpressionEngine>
+    </Property>
+    <Property name="Group" type="App::PropertyLinkList" group="" attr="0" ro="0" hide="0" doc="" status="2097160">
+      <LinkList count="3">
+        <Link value="Constraint"/>
+        <Link value="Constraint001"/>
+        <Link value="Constraint002"/>
+      </LinkList>
+    </Property>
+    <Property name="Index" type="App::PropertyInteger" group=" Link" attr="0" ro="0" hide="0" doc="" status="2097162">
+      <Integer value="0"/>
+    </Property>
+    <Property name="Label" type="App::PropertyString" status="134217728">
+      <String value="Base"/>
+    </Property>
+    <Property name="Label2" type="App::PropertyString" status="128">
+      <String value=""/>
+    </Property>
+    <Property name="Part" type="App::PropertyLink" group=" Link" attr="0" ro="0" hide="0" doc="" status="2097412">
+      <Link value="Link003"/>
+    </Property>
+    <Property name="Proxy" type="App::PropertyPythonObject">
+      <Python  module="freecad.asm3.assembly" class="AsmRelation" value="null"/>
+    </Property>
+    <Property name="TreeRank" type="App::PropertyInteger" status="2184">
+      <Integer value="54"/>
+    </Property>
+    <Property name="Visibility" type="App::PropertyBool" status="648">
+      <Bool value="false"/>
+    </Property>
+    <Property name="_LinkOwner" type="App::PropertyInteger" status="201326592">
+      <Integer value="0"/>
+    </Property>
+    <Property name="_LinkVersion" type="App::PropertyInteger" status="83886080">
+      <Integer value="1"/>
+    </Property>
+  </Properties>
+</Object>
+</Document>

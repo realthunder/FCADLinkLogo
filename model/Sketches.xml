@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- FreeCAD DocumentObject -->
+<Document SchemaVersion="4" FileVersion="2">
+<Object name="Sketches">
+  <Properties Count="7" TransientCount="0">
+    <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+      <ExpressionEngine count="0"></ExpressionEngine>
+    </Property>
+    <Property name="Group" type="App::PropertyLinkList" status="218103808">
+      <LinkList count="15">
+        <Link value="InvoluteGear"/>
+        <Link value="Sketch"/>
+        <Link value="Export"/>
+        <Link value="Sketch005"/>
+        <Link value="Sketch006"/>
+        <Link value="Sketch007"/>
+        <Link value="Sketch008"/>
+        <Link value="Sketch009"/>
+        <Link value="Sketch010"/>
+        <Link value="Sketch011"/>
+        <Link value="Export001"/>
+        <Link value="Export002"/>
+        <Link value="Export003"/>
+        <Link value="Export004"/>
+        <Link value="Export005"/>
+      </LinkList>
+    </Property>
+    <Property name="Label" type="App::PropertyString" status="134217728">
+      <String value="Sketches"/>
+    </Property>
+    <Property name="Label2" type="App::PropertyString" status="128">
+      <String value=""/>
+    </Property>
+    <Property name="TreeRank" type="App::PropertyInteger" status="2184">
+      <Integer value="69"/>
+    </Property>
+    <Property name="Visibility" type="App::PropertyBool" status="648">
+      <Bool value="true"/>
+    </Property>
+    <Property name="_Body" type="App::PropertyLinkHidden" status="218103808">
+      <Link value="Body"/>
+    </Property>
+  </Properties>
+</Object>
+</Document>

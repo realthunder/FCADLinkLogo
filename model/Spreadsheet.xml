@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- FreeCAD DocumentObject -->
+<Document SchemaVersion="4" FileVersion="2">
+<Object name="Spreadsheet">
+  <Properties Count="14" TransientCount="0">
+    <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+      <ExpressionEngine count="0"></ExpressionEngine>
+    </Property>
+    <Property name="Label" type="App::PropertyString" status="134217728">
+      <String value="Spreadsheet"/>
+    </Property>
+    <Property name="Label2" type="App::PropertyString" status="128">
+      <String value=""/>
+    </Property>
+    <Property name="PythonMode" type="App::PropertyBool">
+      <Bool value="false"/>
+    </Property>
+    <Property name="ShowCells" type="App::PropertyEnumeration">
+      <Integer value="3"/>
+    </Property>
+    <Property name="TreeRank" type="App::PropertyInteger" status="2184">
+      <Integer value="55"/>
+    </Property>
+    <Property name="Visibility" type="App::PropertyBool" status="648">
+      <Bool value="true"/>
+    </Property>
+    <Property name="_ObjectUUID" type="App::PropertyUUID" group="" attr="12" ro="0" hide="0" doc="" status="203423744">
+      <Uuid value="6ecfc8c8-add6-409b-a2ff-9e6ba9528c3d"/>
+    </Property>
+    <Property name="_SourceUUID" type="App::PropertyUUID" group="" attr="12" ro="0" hide="0" doc="" status="203423744">
+      <Uuid value="5f3b5287-4201-498c-9ff0-ff87227d75bd"/>
+    </Property>
+    <Property name="cells" type="Spreadsheet::PropertySheet" status="67108864">
+      <Cells Count="60">
+        <Cell editMode="6" editModeName="AutoAlias" address="A1" content="width"/>
+        <Cell alias="width" address="B1" content="85"/>
+        <Cell editMode="6" editModeName="AutoAlias" address="C1" content="gearPinDiameter"/>
+        <Cell alias="gearPinDiameter" address="D1" content="6"/>
+        <Cell editMode="6" editModeName="AutoAlias" address="A2" content="height"/>
+        <Cell alias="height" address="B2" content="120"/>
+        <Cell editMode="6" editModeName="AutoAlias" address="C2" content="gearPinMargin"/>
+        <Cell alias="gearPinMargin" address="D2" content="10"/>
+        <Cell editMode="6" editModeName="AutoAlias" address="A3" content="midHeight"/>
+        <Cell alias="midHeight" editMode="4" editModeName="Quantity" address="B3" content="35"/>
+        <Cell editMode="6" editModeName="AutoAlias" address="C3" content="gearPinFit"/>
+        <Cell alias="gearPinFit" address="D3" content="0.5"/>
+        <Cell editMode="6" editModeName="AutoAlias" address="A4" content="midWidth"/>
+        <Cell alias="midWidth" address="B4" content="=.width - .thick"/>
+        <Cell editMode="6" editModeName="AutoAlias" address="C4" content="gearTeeth"/>
+        <Cell alias="gearTeeth" address="D4" content="9"/>
+        <Cell editMode="6" editModeName="AutoAlias" address="A5" content="thick"/>
+        <Cell alias="thick" address="B5" content="25"/>
+        <Cell editMode="6" editModeName="AutoAlias" address="C5" content="gearMode"/>
+        <Cell alias="gearMode" address="D5" content="8"/>
+        <Cell editMode="6" editModeName="AutoAlias" address="A6" content="upperThick"/>
+        <Cell alias="upperThick" address="B6" content="40"/>
+        <Cell editMode="6" editModeName="AutoAlias" address="C6" content="gearRotate"/>
+        <Cell alias="gearRotate" editMode="4" editModeName="Quantity" address="D6" content="-12"/>
+        <Cell editMode="6" editModeName="AutoAlias" address="A7" content="midThick"/>
+        <Cell alias="midThick" address="B7" content="20"/>
+        <Cell editMode="6" editModeName="AutoAlias" address="C7" content="gearThick"/>
+        <Cell alias="gearThick" address="D7" content="10"/>
+        <Cell editMode="6" editModeName="AutoAlias" address="A8" content="depth"/>
+        <Cell alias="depth" address="B8" content="30"/>
+        <Cell editMode="6" editModeName="AutoAlias" address="A9" content="heightExtra"/>
+        <Cell alias="heightExtra" address="B9" content="10"/>
+        <Cell editMode="6" editModeName="AutoAlias" address="C9" content="linkPinDiameter"/>
+        <Cell alias="linkPinDiameter" address="D9" content="5"/>
+        <Cell editMode="6" editModeName="AutoAlias" address="A10" content="fit"/>
+        <Cell alias="fit" address="B10" content="0.5"/>
+        <Cell editMode="6" editModeName="AutoAlias" address="C10" content="slotMargin"/>
+        <Cell alias="slotMargin" address="D10" content="2"/>
+        <Cell editMode="6" editModeName="AutoAlias" address="C11" content="slotLength"/>
+        <Cell alias="slotLength" address="D11" content="=.upperThick - .slotWidth - slotMargin * 2"/>
+        <Cell editMode="6" editModeName="AutoAlias" address="C12" content="slotWidth"/>
+        <Cell alias="slotWidth" address="D12" content="=.linkPinDiameter + .slotFit"/>
+        <Cell editMode="6" editModeName="AutoAlias" address="C13" content="slotFit"/>
+        <Cell alias="slotFit" address="D13" content="0.5"/>
+        <Cell editMode="6" editModeName="AutoAlias" address="C14" content="slotDepth"/>
+        <Cell alias="slotDepth" address="D14" content="=depth - 5"/>
+        <Cell editMode="6" editModeName="AutoAlias" address="C15" content="pistonDiameter"/>
+        <Cell alias="pistonDiameter" address="D15" content="12"/>
+        <Cell editMode="6" editModeName="AutoAlias" address="C16" content="pistonFit"/>
+        <Cell alias="pistonFit" address="D16" content="0.5"/>
+        <Cell editMode="6" editModeName="AutoAlias" address="C17" content="pistonLength"/>
+        <Cell alias="pistonLength" address="D17" content="37"/>
+        <Cell editMode="6" editModeName="AutoAlias" address="C18" content="linkWidth"/>
+        <Cell alias="linkWidth" address="D18" content="25"/>
+        <Cell editMode="6" editModeName="AutoAlias" address="C19" content="linkLength"/>
+        <Cell alias="linkLength" address="D19" content="=midHeight + midThick / 2 + upperThick / 2"/>
+        <Cell editMode="6" editModeName="AutoAlias" address="C20" content="linkPinLength"/>
+        <Cell alias="linkPinLength" address="D20" content="20"/>
+        <Cell editMode="6" editModeName="AutoAlias" address="C21" content="linkThick"/>
+        <Cell alias="linkThick" address="D21" content="5"/>
+      </Cells>
+    </Property>
+    <Property name="columnWidths" type="Spreadsheet::PropertyColumnWidths" status="218103808">
+      <ColumnInfo Count="3">
+        <Column name="A" width="127" />
+        <Column name="C" width="209" />
+        <Column name="D" width="100" />
+      </ColumnInfo>
+    </Property>
+    <Property name="hiddenColumns" type="App::PropertyIntegerSet" status="201326592">
+      <IntegerSet count="0">
+      </IntegerSet>
+    </Property>
+    <Property name="hiddenRows" type="App::PropertyIntegerSet" status="201326592">
+      <IntegerSet count="0">
+      </IntegerSet>
+    </Property>
+    <Property name="rowHeights" type="Spreadsheet::PropertyRowHeights" status="218103808">
+      <RowInfo Count="0">
+      </RowInfo>
+    </Property>
+  </Properties>
+</Object>
+</Document>

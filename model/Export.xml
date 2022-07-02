@@ -1,0 +1,441 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- FreeCAD DocumentObject -->
+<Document SchemaVersion="4" FileVersion="2">
+<Object name="Export" Extensions="True">
+  <Extensions Count="1">
+    <Extension type="Part::AttachExtension" name="AttachExtension">
+    </Extension>
+  </Extensions>
+  <Properties Count="20" TransientCount="1">
+    <_Property name="_ElementMapVersion" type="App::PropertyString" status="234881024"/>
+    <Property name="AttacherType" type="App::PropertyString" status="8">
+      <String value="Attacher::AttachEnginePlane"/>
+    </Property>
+    <Property name="AttachmentOffset" type="App::PropertyPlacement" status="8">
+      <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0" Q1="0" Q2="0" Q3="1" A="0" Ox="0" Oy="0" Oz="1"/>
+    </Property>
+    <Property name="AttachmentSupport" type="App::PropertyLinkSubList">
+      <LinkSubList count="0">
+      </LinkSubList>
+    </Property>
+    <Property name="Base" type="App::PropertyLink" status="83886080">
+      <Link value="Sketch"/>
+    </Property>
+    <Property name="BaseRefs" type="App::PropertyLinkSub">
+      <LinkSub value="Sketch" count="1">
+        <Sub value="edge11" shadowed=";g11.edge11"/>
+      </LinkSub>
+    </Property>
+    <Property name="ColoredElements" type="App::PropertyLinkSubHidden" status="218103808">
+      <LinkSub value="" count="0">
+      </LinkSub>
+    </Property>
+    <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+      <ExpressionEngine count="0"></ExpressionEngine>
+    </Property>
+    <Property name="Label" type="App::PropertyString" status="134217728">
+      <String value="GearPin"/>
+    </Property>
+    <Property name="Label2" type="App::PropertyString" status="128">
+      <String value=""/>
+    </Property>
+    <Property name="MapMode" type="App::PropertyEnumeration">
+      <Integer value="0"/>
+    </Property>
+    <Property name="MapPathParameter" type="App::PropertyFloat" status="8">
+      <Float value="0"/>
+    </Property>
+    <Property name="MapReversed" type="App::PropertyBool" status="8">
+      <Bool value="false"/>
+    </Property>
+    <Property name="Placement" type="App::PropertyPlacement" status="8388608">
+      <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0" Q1="0" Q2="0" Q3="1" A="0" Ox="0" Oy="0" Oz="1"/>
+    </Property>
+    <Property name="Refs" type="App::PropertyStringList" status="67108864">
+      <StringList count="1" >
+<String value=";g11.edge11"/>
+      </StringList>
+    </Property>
+    <Property name="ScaleVector" type="App::PropertyVector">
+      <PropertyVector valueX="1" valueY="1" valueZ="1"/>
+    </Property>
+    <Property name="Shape" type="Part::PropertyPartShape">
+      <Part ElementMap="0.15.70200.4" brep="1">
+<![CDATA[
+
+CASCADE Topology V1, (c) Matra-Datavision
+Locations 77
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+2  3 1 4 -1 1 -1 2 -1 0
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1              10 
+2  6 -1 3 1 4 -1 1 -1 2 -1 0
+2  4 -1 1 -1 2 -1 0
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+2  9 -1 10 1 11 -1 12 1 4 -1 1 -1 2 -1 0
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+2  14 1 15 -1 1 -1 2 -1 0
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1              15 
+2  17 -1 14 1 15 -1 1 -1 2 -1 0
+2  15 -1 1 -1 2 -1 0
+2  9 -1 10 1 11 -1 12 1 15 -1 1 -1 2 -1 0
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+2  21 1 22 -1 1 -1 2 -1 0
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1              14 
+2  24 -1 21 1 22 -1 1 -1 2 -1 0
+2  22 -1 1 -1 2 -1 0
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+2  27 -1 28 1 29 -1 30 1 22 -1 1 -1 2 -1 0
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+2  32 1 33 -1 1 -1 2 -1 0
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1              14 
+2  35 -1 32 1 33 -1 1 -1 2 -1 0
+2  33 -1 1 -1 2 -1 0
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+2  38 -1 39 1 40 -1 41 1 33 -1 1 -1 2 -1 0
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+2  43 1 44 -1 1 -1 2 -1 0
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1              14 
+2  46 -1 43 1 44 -1 1 -1 2 -1 0
+2  44 -1 1 -1 2 -1 0
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+2  49 -1 50 1 51 1 52 -1 53 1 44 -1 1 -1 2 -1 0
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+2  55 1 56 -1 1 -1 2 -1 0
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1              14 
+2  58 -1 55 1 56 -1 1 -1 2 -1 0
+2  56 -1 1 -1 2 -1 0
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+2  49 -1 61 1 62 1 63 -1 64 1 56 -1 1 -1 2 -1 0
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+2  66 1 67 -1 1 -1 2 -1 0
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1              14 
+2  69 -1 66 1 67 -1 1 -1 2 -1 0
+2  67 -1 1 -1 2 -1 0
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+1
+              1               0               0               0 
+              0               1               0               0 
+              0               0               1               0 
+2  49 -1 72 1 73 1 74 -1 75 1 67 -1 1 -1 2 -1 0
+2  2 -1 0
+Curve2ds 28
+1 0 0 1 0 
+1 0 -10 1 0 
+2 0 0 1 0 -0 1 3
+2 37.409090909090921 -25.45454545454546 1 0 -0 1 3
+1 0 0 1 0 
+1 0 -15 1 0 
+2 0 0 1 0 -0 1 3
+2 37.409090909090921 -25.45454545454546 1 0 -0 1 3
+1 0 0 1 0 
+1 0 -14 1 0 
+2 0 0 1 0 -0 1 3
+2 37.409090909090921 -25.45454545454546 1 0 -0 1 3
+1 0 0 1 0 
+1 0 -14 1 0 
+2 0 0 1 0 -0 1 3
+2 37.409090909090921 -25.45454545454546 1 0 -0 1 3
+1 0 0 1 0 
+1 0 -14 1 0 
+2 0 0 1 0 -0 1 3
+2 37.409090909090921 -25.45454545454546 1 0 -0 1 3
+1 0 0 1 0 
+1 0 -14 1 0 
+2 0 0 1 0 -0 1 3
+2 37.409090909090921 -25.45454545454546 1 0 -0 1 3
+1 0 0 1 0 
+1 0 -14 1 0 
+2 0 0 1 0 -0 1 3
+2 37.409090909090921 -25.45454545454546 1 0 -0 1 3
+Curves 1
+2 75.000000000000014 34.999999999999993 0 0 0 1 1 0 -0 -0 1 0 3
+Polygon3D 0
+PolygonOnTriangulations 0
+Surfaces 18
+2 75.000000000000014 34.999999999999993 0 -0 -0 -1 1 0 0 -0 1 -0 3
+1 75.000000000000014 34.999999999999993 0 0 0 1 1 0 -0 -0 1 0 
+1 37.590909090909093 60.454545454545453 0 0 0 1 1 0 -0 -0 1 0 
+2 75.000000000000014 34.999999999999993 0 -0 -0 -1 1 0 0 -0 1 -0 3
+1 75.000000000000014 34.999999999999993 0 0 0 1 1 0 -0 -0 1 0 
+2 75.000000000000014 34.999999999999993 0 -0 -0 -1 1 0 0 -0 1 -0 3
+1 75.000000000000014 34.999999999999993 0 0 0 1 1 0 -0 -0 1 0 
+1 37.590909090909093 60.454545454545453 0 0 0 1 1 0 -0 -0 1 0 
+2 75.000000000000014 34.999999999999993 0 -0 -0 -1 1 0 0 -0 1 -0 3
+1 75.000000000000014 34.999999999999993 0 0 0 1 1 0 -0 -0 1 0 
+1 37.590909090909093 60.454545454545453 0 0 0 1 1 0 -0 -0 1 0 
+2 75.000000000000014 34.999999999999993 0 -0 -0 -1 1 0 0 -0 1 -0 3
+1 75.000000000000014 34.999999999999993 0 0 0 1 1 0 -0 -0 1 0 
+1 37.590909090909093 60.454545454545453 0 0 0 1 1 0 -0 -0 1 0 
+2 75.000000000000014 34.999999999999993 0 -0 -0 -1 1 0 0 -0 1 -0 3
+1 75.000000000000014 34.999999999999993 0 0 0 1 1 0 -0 -0 1 0 
+2 75.000000000000014 34.999999999999993 0 -0 -0 -1 1 0 0 -0 1 -0 3
+1 75.000000000000014 34.999999999999993 0 0 0 1 1 0 -0 -0 1 0 
+Triangulations 0
+
+TShapes 3
+Ve
+1e-07
+78 35 0
+0 0
+
+0101101
+*
+Ed
+ 1e-07 1 1 0
+1  1 0 0 6.28318530717959
+2  1 1 5 0 6.28318530717959
+2  2 1 7 0 6.28318530717959
+2  3 2 8 0 6.28318530717959
+2  4 3 13 0 6.28318530717959
+2  5 4 16 0 6.28318530717959
+2  6 4 18 0 6.28318530717959
+2  7 5 19 0 6.28318530717959
+2  8 3 20 0 6.28318530717959
+2  9 6 23 0 6.28318530717959
+2  10 6 25 0 6.28318530717959
+2  11 7 26 0 6.28318530717959
+2  12 8 31 0 6.28318530717959
+2  13 9 34 0 6.28318530717959
+2  14 9 36 0 6.28318530717959
+2  15 10 37 0 6.28318530717959
+2  16 11 42 0 6.28318530717959
+2  17 12 45 0 6.28318530717959
+2  18 12 47 0 6.28318530717959
+2  19 13 48 0 6.28318530717959
+2  20 14 54 0 6.28318530717959
+2  21 15 57 0 6.28318530717959
+2  22 15 59 0 6.28318530717959
+2  23 16 60 0 6.28318530717959
+2  24 14 65 0 6.28318530717959
+2  25 17 68 0 6.28318530717959
+2  26 17 70 0 6.28318530717959
+2  27 18 71 0 6.28318530717959
+2  28 14 76 0 6.28318530717959
+0
+
+0101000
++3 77 -3 77 *
+Wi
+
+0101100
++2 2 *
+
++1 1 ]]>
+      </Part>
+      <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
+      <ElementMap2 count="2">
+<![CDATA[
+4 PostfixCount 4
+Edge
+Vertex
+;SKE;:H23:4,E
+;SKE;:H23:4,V
+
+MapCount 1
+
+ElementMap 1 4 2
+
+Edge
+
+ChildCount 0
+
+NameCount 2
+0
+;g11.3 0
+
+Vertex
+
+ChildCount 0
+
+NameCount 2
+0
+;g11v1.4 0
+
+EndMap
+]]>
+      </ElementMap2>
+    </Property>
+    <Property name="Support" type="App::PropertyLinkSubList" status="67108864">
+      <LinkSubList count="0">
+      </LinkSubList>
+    </Property>
+    <Property name="SyncPlacement" type="App::PropertyBool">
+      <Bool value="true"/>
+    </Property>
+    <Property name="TreeRank" type="App::PropertyInteger" status="2184">
+      <Integer value="72"/>
+    </Property>
+    <Property name="Visibility" type="App::PropertyBool" status="648">
+      <Bool value="false"/>
+    </Property>
+  </Properties>
+</Object>
+</Document>

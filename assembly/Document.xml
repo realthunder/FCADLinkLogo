@@ -1,0 +1,496 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+ FreeCAD Document, see http://www.freecadweb.org for more information...
+-->
+<Document SchemaVersion="4" ProgramVersion="0.20R26244 +4947 (Git)" FileVersion="2" Uid="e22894bb-ecd9-44ae-8da6-182402234b94" StringHasher="1">
+  <StringHasher saveall="0" threshold="0" count="0" new="1"/>
+  <StringHasher2  count="24">
+<![CDATA[
+-cd.0 1:Enforce an angle offset defined as yaw-pitch-roll angle of the
+second plane performed in the order of x-y-z
+-1.0 1:The rotation angle of the second plane about its z-axis.
+You need to enable LockAngle for this to take effect.
+-1.0 1:Rotation angle of the second plane about its y-axis.
+You need to enable LockAngle for this to take effect.
+-1.0 1:Rotation angle of the second plane about its x-axis
+You need to enable LockAngle for this to take effect.
+-8d.0 0:Override view object display mode when shadow is enabled.
+-1.0 0:Whether to use spot light or directional light.
+-1.0 2:Specifies shadow precision. This parameter affects the internal texture
+size used to hold the casted shadows. You might want a bigger texture if
+you want a hard shadow but a smaller one for soft shadow.
+-1.0 2:Epsilon is used to offset the shadow map depth from the model depth.
+Should be set to as low a number as possible without causing flickering
+in the shadows or on non-shadowed objects.
+-1.0 0:Can be used to avoid light bleeding in merged shadows cast from different objects.
+-1.0 2:Specifics the clipping distance for when rendering shadows.
+You can increase the bounding box scale to avoid execessive
+clipping of shadows when viewing up close in certain angle.
+-1.0 2:Specifics the ground transparency. When set to 0, the non-shadowed part
+of the ground will be complete transparent, showing only the shadowed part
+of the ground with some transparency.
+-1.0 0:Whether to show the ground when viewing from under the ground face
+-1.0 2:Whether to show auto generated ground face. You can specify you own ground
+object by changing its view property 'ShadowStyle' to 'Shadowed', meaning
+that it will only receive but not cast shadow.
+-1.0 2:Scene bounding box is used to determine the scale of the shadow texture.
+You can increase the bounding box scale to avoid execessive clipping of
+shadows when viewing up close in certain angle.
+-1.0 0:Auto adjust ground size based on the scene bounding box
+-1.0 1:The auto generated ground face is determined by the scene bounding box
+multiplied by this scale
+-1.0 0:Ground placement. If 'GroundAutoPosition' is on, this specifies an additional offset of the ground
+-1.0 0:Auto place the ground face at the Z bottom of the scene
+-1.0 1:Specifies the physcal length of the ground texture image size.
+Texture mappings beyond this size will be wrapped around
+-1.0 2:Specifies the blur raidus of the shadow edge. Higher number will result in
+slower rendering speed on scene change. Use a lower 'Precision' value to
+counter the effect.
+-1.0 1:Specifies the spread size for a soft shadow. The resulting spread size is
+dependent on the model scale
+-1.0 3:Specifies the sample size used for rendering shadow spread. A value 0
+corresponds to a sampling square of 2x2. And 1 corresponds to 3x3, etc.
+The bigger the size the slower the rendering speed. You can use a lower
+'Precision' value to counter the effect.
+-1.0 1:Render ground with shading. If disabled, the ground and the shadow casted
+on ground will not change shading when viewing in different angle.
+-1.0 0:Whether to cast shadow from transparent objects.
+]]>
+  </StringHasher2>
+  <Properties Count="45" TransientCount="3">
+    <_Property name="FileName" type="App::PropertyString" status="50331649"/>
+    <_Property name="Tip" type="App::PropertyLink" status="33554433"/>
+    <_Property name="TransientDir" type="App::PropertyString" status="50331649"/>
+    <Property name="Comment" type="App::PropertyString" status="1">
+      <String value=""/>
+    </Property>
+    <Property name="Company" type="App::PropertyString">
+      <String value=""/>
+    </Property>
+    <Property name="CreatedBy" type="App::PropertyString">
+      <String value=""/>
+    </Property>
+    <Property name="CreationDate" type="App::PropertyString" status="16777217">
+      <String value="2022-07-01T04:49:19Z"/>
+    </Property>
+    <Property name="ForceXML" type="App::PropertyInteger" status="1">
+      <Integer value="3"/>
+    </Property>
+    <Property name="Id" type="App::PropertyString">
+      <String value=""/>
+    </Property>
+    <Property name="Label" type="App::PropertyString" status="1">
+      <String value="assembly"/>
+    </Property>
+    <Property name="LastModifiedBy" type="App::PropertyString">
+      <String value=""/>
+    </Property>
+    <Property name="LastModifiedDate" type="App::PropertyString" status="16777217">
+      <String value="2022-07-02T02:36:56Z"/>
+    </Property>
+    <Property name="License" type="App::PropertyString" status="1">
+      <String value="All rights reserved"/>
+    </Property>
+    <Property name="LicenseURL" type="App::PropertyString" status="1">
+      <String value="http://en.wikipedia.org/wiki/All_rights_reserved"/>
+    </Property>
+    <Property name="Material" type="App::PropertyMap" status="1">
+      <Map count="0">
+      </Map>
+    </Property>
+    <Property name="Meta" type="App::PropertyMap" status="1">
+      <Map count="0">
+      </Map>
+    </Property>
+    <Property name="PreferBinary" type="App::PropertyBool" status="1">
+      <Bool value="false"/>
+    </Property>
+    <Property name="Shadow_BoundBoxScale" type="App::PropertyFloatConstraint" group="Shadow" attr="0" ro="0" hide="0" docID="358" status="2097153">
+      <Float value="5"/>
+    </Property>
+    <Property name="Shadow_DisplayMode" type="App::PropertyEnumeration" group="Shadow" attr="0" ro="0" hide="0" docID="349" status="2097153">
+      <Integer value="1"/>
+    </Property>
+    <Property name="Shadow_Epsilon" type="App::PropertyPrecision" group="Shadow" attr="0" ro="0" hide="0" docID="352" status="2097153">
+      <Float value="0"/>
+    </Property>
+    <Property name="Shadow_GroundAutoPosition" type="App::PropertyBool" group="Shadow" attr="0" ro="0" hide="0" docID="362" status="2097153">
+      <Bool value="true"/>
+    </Property>
+    <Property name="Shadow_GroundBackFaceCull" type="App::PropertyBool" group="Shadow" attr="0" ro="0" hide="0" docID="356" status="2097153">
+      <Bool value="true"/>
+    </Property>
+    <Property name="Shadow_GroundBumpMap" type="App::PropertyFileIncluded" group="Shadow" attr="0" ro="0" hide="0" doc="" status="2097152">
+      <FileIncluded file=""/>
+    </Property>
+    <Property name="Shadow_GroundColor" type="App::PropertyColor" group="Shadow" attr="0" ro="0" hide="0" doc="" status="2097153">
+      <PropertyColor value="1936946175"/>
+    </Property>
+    <Property name="Shadow_GroundPlacement" type="App::PropertyPlacement" group="Shadow" attr="0" ro="0" hide="0" docID="361" status="2097153">
+      <PropertyPlacement Px="0" Py="0" Pz="0" Q0="0" Q1="0" Q2="0" Q3="1" A="0" Ox="1" Oy="0" Oz="0"/>
+    </Property>
+    <Property name="Shadow_GroundShading" type="App::PropertyBool" group="Shadow" attr="0" ro="0" hide="0" docID="367" status="2097153">
+      <Bool value="false"/>
+    </Property>
+    <Property name="Shadow_GroundSizeAuto" type="App::PropertyBool" group="Shadow" attr="0" ro="0" hide="0" docID="359" status="2097153">
+      <Bool value="true"/>
+    </Property>
+    <Property name="Shadow_GroundSizeScale" type="App::PropertyFloat" group="Shadow" attr="0" ro="0" hide="0" docID="360" status="2097153">
+      <Float value="2"/>
+    </Property>
+    <Property name="Shadow_GroundTexture" type="App::PropertyFileIncluded" group="Shadow" attr="0" ro="0" hide="0" doc="" status="2097152">
+      <FileIncluded file=""/>
+    </Property>
+    <Property name="Shadow_GroundTextureSize" type="App::PropertyLength" group="Shadow" attr="0" ro="0" hide="0" docID="363" status="2097153">
+      <Float value="99.98999999999999"/>
+    </Property>
+    <Property name="Shadow_GroundTransparency" type="App::PropertyFloatConstraint" group="Shadow" attr="0" ro="0" hide="0" docID="355" status="2097153">
+      <Float value="1"/>
+    </Property>
+    <Property name="Shadow_LightColor" type="App::PropertyColor" group="Shadow" attr="0" ro="0" hide="0" doc="" status="2097153">
+      <PropertyColor value="4043177983"/>
+    </Property>
+    <Property name="Shadow_LightDirection" type="App::PropertyVector" group="Shadow" attr="0" ro="0" hide="0" doc="" status="2097153">
+      <PropertyVector valueX="-0.2861364185810089" valueY="-0.5003747344017029" valueZ="-0.8171603083610535"/>
+    </Property>
+    <Property name="Shadow_LightIntensity" type="App::PropertyFloatConstraint" group="Shadow" attr="0" ro="0" hide="0" doc="" status="2097153">
+      <Float value="0.8"/>
+    </Property>
+    <Property name="Shadow_MaxDistance" type="App::PropertyFloatConstraint" group="Shadow" attr="0" ro="0" hide="0" docID="354" status="2097153">
+      <Float value="0"/>
+    </Property>
+    <Property name="Shadow_Precision" type="App::PropertyFloatConstraint" group="Shadow" attr="0" ro="0" hide="0" docID="351" status="2097153">
+      <Float value="0.5"/>
+    </Property>
+    <Property name="Shadow_ShowGround" type="App::PropertyBool" group="Shadow" attr="0" ro="0" hide="0" docID="357" status="2097153">
+      <Bool value="false"/>
+    </Property>
+    <Property name="Shadow_SmoothBorder" type="App::PropertyIntegerConstraint" group="Shadow" attr="0" ro="0" hide="0" docID="364" status="2097153">
+      <Integer value="2"/>
+    </Property>
+    <Property name="Shadow_SpotLight" type="App::PropertyBool" group="Shadow" attr="0" ro="0" hide="0" docID="350" status="2097153">
+      <Bool value="false"/>
+    </Property>
+    <Property name="Shadow_SpreadSampleSize" type="App::PropertyIntegerConstraint" group="Shadow" attr="0" ro="0" hide="0" docID="366" status="2097153">
+      <Integer value="3"/>
+    </Property>
+    <Property name="Shadow_SpreadSize" type="App::PropertyIntegerConstraint" group="Shadow" attr="0" ro="0" hide="0" docID="365" status="2097153">
+      <Integer value="3000"/>
+    </Property>
+    <Property name="Shadow_Threshold" type="App::PropertyFloatConstraint" group="Shadow" attr="0" ro="0" hide="0" docID="353" status="2097153">
+      <Float value="0"/>
+    </Property>
+    <Property name="Shadow_TransparentShadow" type="App::PropertyBool" group="Shadow" attr="0" ro="0" hide="0" docID="368" status="2097153">
+      <Bool value="true"/>
+    </Property>
+    <Property name="ShowHidden" type="App::PropertyBool" status="1">
+      <Bool value="false"/>
+    </Property>
+    <Property name="SplitXML" type="App::PropertyBool" status="1">
+      <Bool value="true"/>
+    </Property>
+    <Property name="TipName" type="App::PropertyString" status="83886080">
+      <String value=""/>
+    </Property>
+    <Property name="Uid" type="App::PropertyUUID" status="16777217">
+      <Uuid value="e22894bb-ecd9-44ae-8da6-182402234b94"/>
+    </Property>
+    <Property name="UseHasher" type="App::PropertyBool" status="67108865">
+      <Bool value="true"/>
+    </Property>
+  </Properties>
+  <Objects Count="56" Dependencies="1">
+    <ObjectDeps Name="Link" Count="0"/>
+    <ObjectDeps Name="Link001" Count="0"/>
+    <ObjectDeps Name="Link002" Count="0"/>
+    <ObjectDeps Name="Link003" Count="0"/>
+    <ObjectDeps Name="Link004" Count="0"/>
+    <ObjectDeps Name="Link005" Count="0"/>
+    <ObjectDeps Name="Assembly" Count="4">
+      <Dep Name="Constraints"/>
+      <Dep Name="Elements"/>
+      <Dep Name="Parts"/>
+      <Dep Name="Relations"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Constraints" Count="5">
+      <Dep Name="Constraint004"/>
+      <Dep Name="Constraint"/>
+      <Dep Name="Constraint002"/>
+      <Dep Name="Constraint005"/>
+      <Dep Name="Constraint001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Elements" Count="12">
+      <Dep Name="Element008"/>
+      <Dep Name="_Element012"/>
+      <Dep Name="_Element011"/>
+      <Dep Name="_Element008"/>
+      <Dep Name="_Element"/>
+      <Dep Name="_Element009"/>
+      <Dep Name="_Element001"/>
+      <Dep Name="_Element006"/>
+      <Dep Name="_Element013"/>
+      <Dep Name="_Element014"/>
+      <Dep Name="Element011"/>
+      <Dep Name="_Element010"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Parts" Count="4">
+      <Dep Name="Link004"/>
+      <Dep Name="Assembly002"/>
+      <Dep Name="Assembly001"/>
+      <Dep Name="Link003"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Constraint" Count="2">
+      <Dep Name="Constraints"/>
+      <Dep Name="ElementLink"/>
+    </ObjectDeps>
+    <ObjectDeps Name="ElementLink" Count="2">
+      <Dep Name="_Element"/>
+      <Dep Name="Constraint"/>
+    </ObjectDeps>
+    <ObjectDeps Name="_Element" Count="2">
+      <Dep Name="Elements"/>
+      <Dep Name="Link003"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Assembly001" Count="3">
+      <Dep Name="Parts001"/>
+      <Dep Name="Elements001"/>
+      <Dep Name="Constraints001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Constraints001" Count="0"/>
+    <ObjectDeps Name="Elements001" Count="2">
+      <Dep Name="Element"/>
+      <Dep Name="Element005"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Parts001" Count="2">
+      <Dep Name="Link"/>
+      <Dep Name="Link002"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Constraint001" Count="3">
+      <Dep Name="ElementLink002"/>
+      <Dep Name="Constraints"/>
+      <Dep Name="ElementLink001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="ElementLink001" Count="2">
+      <Dep Name="_Element001"/>
+      <Dep Name="Constraint001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element" Count="2">
+      <Dep Name="Link002"/>
+      <Dep Name="Elements001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="_Element001" Count="2">
+      <Dep Name="Elements"/>
+      <Dep Name="Assembly001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="ElementLink002" Count="2">
+      <Dep Name="_Element008"/>
+      <Dep Name="Constraint001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Assembly002" Count="3">
+      <Dep Name="Parts002"/>
+      <Dep Name="Elements002"/>
+      <Dep Name="Constraints002"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Constraints002" Count="0"/>
+    <ObjectDeps Name="Elements002" Count="4">
+      <Dep Name="Element010"/>
+      <Dep Name="Element007"/>
+      <Dep Name="Element006"/>
+      <Dep Name="Element009"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Parts002" Count="2">
+      <Dep Name="Link005"/>
+      <Dep Name="Link001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Constraint002" Count="3">
+      <Dep Name="Constraints"/>
+      <Dep Name="ElementLink003"/>
+      <Dep Name="ElementLink004"/>
+    </ObjectDeps>
+    <ObjectDeps Name="ElementLink003" Count="2">
+      <Dep Name="_Element010"/>
+      <Dep Name="Constraint002"/>
+    </ObjectDeps>
+    <ObjectDeps Name="ElementLink004" Count="2">
+      <Dep Name="_Element009"/>
+      <Dep Name="Constraint002"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element005" Count="2">
+      <Dep Name="Link"/>
+      <Dep Name="Elements001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="_Element006" Count="2">
+      <Dep Name="Elements"/>
+      <Dep Name="Assembly001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="_Element008" Count="2">
+      <Dep Name="Elements"/>
+      <Dep Name="Link003"/>
+    </ObjectDeps>
+    <ObjectDeps Name="_Element009" Count="2">
+      <Dep Name="Elements"/>
+      <Dep Name="Link003"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element006" Count="2">
+      <Dep Name="Elements002"/>
+      <Dep Name="Link001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="_Element010" Count="2">
+      <Dep Name="Elements"/>
+      <Dep Name="Assembly002"/>
+    </ObjectDeps>
+    <ObjectDeps Name="_Element011" Count="2">
+      <Dep Name="Link004"/>
+      <Dep Name="Elements"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Relations" Count="5">
+      <Dep Name="Constraints"/>
+      <Dep Name="Relation002"/>
+      <Dep Name="Relation003"/>
+      <Dep Name="Relation001"/>
+      <Dep Name="Relation"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Relation" Count="4">
+      <Dep Name="Constraint"/>
+      <Dep Name="Link003"/>
+      <Dep Name="Constraint002"/>
+      <Dep Name="Constraint001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Relation001" Count="3">
+      <Dep Name="Link004"/>
+      <Dep Name="Constraint004"/>
+      <Dep Name="Constraint005"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Relation002" Count="3">
+      <Dep Name="Assembly001"/>
+      <Dep Name="Constraint005"/>
+      <Dep Name="Constraint001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Relation003" Count="3">
+      <Dep Name="Constraint004"/>
+      <Dep Name="Assembly002"/>
+      <Dep Name="Constraint002"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element007" Count="2">
+      <Dep Name="Elements002"/>
+      <Dep Name="Link005"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element008" Count="2">
+      <Dep Name="Elements"/>
+      <Dep Name="Assembly002"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element009" Count="2">
+      <Dep Name="Elements002"/>
+      <Dep Name="Link001"/>
+    </ObjectDeps>
+    <ObjectDeps Name="_Element012" Count="2">
+      <Dep Name="Elements"/>
+      <Dep Name="Assembly002"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element010" Count="2">
+      <Dep Name="Elements002"/>
+      <Dep Name="Link005"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Element011" Count="2">
+      <Dep Name="Elements"/>
+      <Dep Name="Assembly002"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Constraint004" Count="3">
+      <Dep Name="Constraints"/>
+      <Dep Name="ElementLink008"/>
+      <Dep Name="ElementLink007"/>
+    </ObjectDeps>
+    <ObjectDeps Name="ElementLink007" Count="2">
+      <Dep Name="_Element011"/>
+      <Dep Name="Constraint004"/>
+    </ObjectDeps>
+    <ObjectDeps Name="ElementLink008" Count="2">
+      <Dep Name="Constraint004"/>
+      <Dep Name="Element011"/>
+    </ObjectDeps>
+    <ObjectDeps Name="Constraint005" Count="4">
+      <Dep Name="ElementLink009"/>
+      <Dep Name="Constraints"/>
+      <Dep Name="ElementLink011"/>
+      <Dep Name="ElementLink010"/>
+    </ObjectDeps>
+    <ObjectDeps Name="ElementLink009" Count="2">
+      <Dep Name="_Element013"/>
+      <Dep Name="Constraint005"/>
+    </ObjectDeps>
+    <ObjectDeps Name="_Element013" Count="2">
+      <Dep Name="Link004"/>
+      <Dep Name="Elements"/>
+    </ObjectDeps>
+    <ObjectDeps Name="ElementLink010" Count="2">
+      <Dep Name="_Element006"/>
+      <Dep Name="Constraint005"/>
+    </ObjectDeps>
+    <ObjectDeps Name="ElementLink011" Count="2">
+      <Dep Name="_Element014"/>
+      <Dep Name="Constraint005"/>
+    </ObjectDeps>
+    <ObjectDeps Name="_Element014" Count="2">
+      <Dep Name="Link004"/>
+      <Dep Name="Elements"/>
+    </ObjectDeps>
+    <Object type="App::Link" name="Link" id="11" revision="11" file="Link.xml" />
+    <Object type="App::Link" name="Link001" id="12" revision="11" file="Link001.xml" />
+    <Object type="App::Link" name="Link002" id="13" revision="11" file="Link002.xml" />
+    <Object type="App::Link" name="Link003" id="14" revision="11" file="Link003.xml" />
+    <Object type="App::Link" name="Link004" id="15" revision="2114" file="Link004.xml" />
+    <Object type="App::Link" name="Link005" id="16" revision="13" file="Link005.xml" />
+    <Object type="Part::FeaturePython" name="Assembly" id="17" revision="2195" ViewType="Gui::ViewProviderLinkPython" file="Assembly.xml" />
+    <Object type="App::FeaturePython" name="Constraints" id="18" revision="1094" ViewType="Gui::ViewProviderLinkPython" file="Constraints.xml" />
+    <Object type="App::FeaturePython" name="Elements" id="19" revision="920" ViewType="Gui::ViewProviderLinkPython" file="Elements.xml" />
+    <Object type="Part::FeaturePython" name="Parts" id="20" revision="917" ViewType="Gui::ViewProviderLinkPython" file="Parts.xml" />
+    <Object type="App::FeaturePython" name="Constraint" id="21" revision="8" ViewType="Gui::ViewProviderLinkPython" file="Constraint.xml" />
+    <Object type="App::FeaturePython" name="ElementLink" id="22" revision="12" ViewType="Gui::ViewProviderLinkPython" file="ElementLink.xml" />
+    <Object type="Part::FeaturePython" name="_Element" id="23" revision="11" file="_Element.xml" />
+    <Object type="Part::FeaturePython" name="Assembly001" id="24" revision="1894" ViewType="Gui::ViewProviderLinkPython" file="Assembly001.xml" />
+    <Object type="App::FeaturePython" name="Constraints001" id="25" revision="2" ViewType="Gui::ViewProviderLinkPython" file="Constraints001.xml" />
+    <Object type="App::FeaturePython" name="Elements001" id="26" revision="8" ViewType="Gui::ViewProviderLinkPython" file="Elements001.xml" />
+    <Object type="Part::FeaturePython" name="Parts001" id="27" revision="8" ViewType="Gui::ViewProviderLinkPython" file="Parts001.xml" />
+    <Object type="App::FeaturePython" name="Constraint001" id="28" revision="481" ViewType="Gui::ViewProviderLinkPython" file="Constraint001.xml" />
+    <Object type="App::FeaturePython" name="ElementLink001" id="29" revision="1419" ViewType="Gui::ViewProviderLinkPython" file="ElementLink001.xml" />
+    <Object type="Part::FeaturePython" name="Element" id="30" revision="11" file="Element.xml" />
+    <Object type="Part::FeaturePython" name="_Element001" id="31" revision="950" file="_Element001.xml" />
+    <Object type="App::FeaturePython" name="ElementLink002" id="32" revision="16" ViewType="Gui::ViewProviderLinkPython" file="ElementLink002.xml" />
+    <Object type="Part::FeaturePython" name="Assembly002" id="34" revision="2618" ViewType="Gui::ViewProviderLinkPython" file="Assembly002.xml" />
+    <Object type="App::FeaturePython" name="Constraints002" id="35" revision="2" ViewType="Gui::ViewProviderLinkPython" file="Constraints002.xml" />
+    <Object type="App::FeaturePython" name="Elements002" id="36" revision="19" ViewType="Gui::ViewProviderLinkPython" file="Elements002.xml" />
+    <Object type="Part::FeaturePython" name="Parts002" id="37" revision="9" ViewType="Gui::ViewProviderLinkPython" file="Parts002.xml" />
+    <Object type="App::FeaturePython" name="Constraint002" id="39" revision="1049" ViewType="Gui::ViewProviderLinkPython" file="Constraint002.xml" />
+    <Object type="App::FeaturePython" name="ElementLink003" id="40" revision="1972" ViewType="Gui::ViewProviderLinkPython" file="ElementLink003.xml" />
+    <Object type="App::FeaturePython" name="ElementLink004" id="43" revision="20" ViewType="Gui::ViewProviderLinkPython" file="ElementLink004.xml" />
+    <Object type="Part::FeaturePython" name="Element005" id="54" revision="11" file="Element005.xml" />
+    <Object type="Part::FeaturePython" name="_Element006" id="55" revision="948" file="_Element006.xml" />
+    <Object type="Part::FeaturePython" name="_Element008" id="59" revision="9" file="_Element008.xml" />
+    <Object type="Part::FeaturePython" name="_Element009" id="60" revision="9" file="_Element009.xml" />
+    <Object type="Part::FeaturePython" name="Element006" id="61" revision="9" file="Element006.xml" />
+    <Object type="Part::FeaturePython" name="_Element010" id="62" revision="419" file="_Element010.xml" />
+    <Object type="Part::FeaturePython" name="_Element011" id="63" revision="413" file="_Element011.xml" />
+    <Object type="App::FeaturePython" name="Relations" id="64" revision="435" file="Relations.xml" />
+    <Object type="App::FeaturePython" name="Relation" id="65" revision="395" ViewType="Gui::ViewProviderLinkPython" file="Relation.xml" />
+    <Object type="App::FeaturePython" name="Relation001" id="66" revision="857" ViewType="Gui::ViewProviderLinkPython" file="Relation001.xml" />
+    <Object type="App::FeaturePython" name="Relation002" id="67" revision="861" ViewType="Gui::ViewProviderLinkPython" file="Relation002.xml" />
+    <Object type="App::FeaturePython" name="Relation003" id="68" revision="1245" ViewType="Gui::ViewProviderLinkPython" file="Relation003.xml" />
+    <Object type="Part::FeaturePython" name="Element007" id="69" revision="7" file="Element007.xml" />
+    <Object type="Part::FeaturePython" name="Element008" id="70" revision="411" file="Element008.xml" />
+    <Object type="Part::FeaturePython" name="Element009" id="73" revision="7" file="Element009.xml" />
+    <Object type="Part::FeaturePython" name="_Element012" id="74" revision="409" file="_Element012.xml" />
+    <Object type="Part::FeaturePython" name="Element010" id="76" revision="7" file="Element010.xml" />
+    <Object type="Part::FeaturePython" name="Element011" id="77" revision="407" file="Element011.xml" />
+    <Object type="App::FeaturePython" name="Constraint004" id="78" revision="246" ViewType="Gui::ViewProviderLinkPython" file="Constraint004.xml" />
+    <Object type="App::FeaturePython" name="ElementLink007" id="79" revision="612" ViewType="Gui::ViewProviderLinkPython" file="ElementLink007.xml" />
+    <Object type="App::FeaturePython" name="ElementLink008" id="80" revision="603" ViewType="Gui::ViewProviderLinkPython" file="ElementLink008.xml" />
+    <Object type="App::FeaturePython" name="Constraint005" id="81" revision="212" ViewType="Gui::ViewProviderLinkPython" file="Constraint005.xml" />
+    <Object type="App::FeaturePython" name="ElementLink009" id="82" revision="614" ViewType="Gui::ViewProviderLinkPython" file="ElementLink009.xml" />
+    <Object type="Part::FeaturePython" name="_Element013" id="83" revision="413" file="_Element013.xml" />
+    <Object type="App::FeaturePython" name="ElementLink010" id="84" revision="492" ViewType="Gui::ViewProviderLinkPython" file="ElementLink010.xml" />
+    <Object type="App::FeaturePython" name="ElementLink011" id="85" revision="614" ViewType="Gui::ViewProviderLinkPython" file="ElementLink011.xml" />
+    <Object type="Part::FeaturePython" name="_Element014" id="86" revision="413" file="_Element014.xml" />
+  </Objects>
+  <ObjectData Count="0">
+  </ObjectData>
+</Document>
