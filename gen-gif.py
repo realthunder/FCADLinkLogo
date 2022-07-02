@@ -18,6 +18,7 @@ def animate(size=128, step=10, path='~/Videos/logo'):
         FreeCADGui.updateGui()
         FreeCADGui.updateGui()
         FreeCADGui.updateGui()
+        FreeCADGui.updateGui()
         filename = f'{path}/frame{i:03d}.png'
         #  print(f'saving {filename}')
         view.saveImage(filename, size, size, '#00000000')
