@@ -3,6 +3,7 @@ import os
 import FreeCADGui, FreeCAD
 import glob
 from PIL import Image
+from save_transparent_gif import save_transparent_gif
 
 def animate(size=128, step=10, path='~/Videos/logo'):
     path = os.path.expanduser(path)
@@ -16,9 +17,6 @@ def animate(size=128, step=10, path='~/Videos/logo'):
         obj.Document.recompute()
         FreeCADGui.runCommand('asm3CmdQuickSolve',0)
         FreeCADGui.updateGui()
-        FreeCADGui.updateGui()
-        FreeCADGui.updateGui()
-        FreeCADGui.updateGui()
         filename = f'{path}/frame{i:03d}.png'
         #  print(f'saving {filename}')
         view.saveImage(filename, size, size, '#00000000')
@@ -28,6 +26,10 @@ def animate(size=128, step=10, path='~/Videos/logo'):
 
     # https://pillow.readthedocs.io/en/stable/handbook/image-file-formats.html#gif
     imgs = (Image.open(f) for f in sorted(glob.glob(fp_in)))
-    img = next(imgs)  # extract first image from iterator
-    img.save(fp=fp_out, format='GIF', append_images=imgs, disposal=2,
-            save_all=True, duration=100, loop=0, transparency=0)
+
+    #  img = next(imgs)  # extract first image from iterator
+    #  img.save(fp=fp_out, format='GIF', append_images=imgs, disposal=2,
+    #          save_all=True, duration=100, loop=0, transparency=7)
+
+    save_transparent_gif(imgs, 100, fp_out)
+
